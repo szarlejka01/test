@@ -1,0 +1,111 @@
+.mjProfilIcon {
+  position: absolute;
+  height: 27.7%;
+  width: 15.37%;
+  top: 43.87%;
+  right: 20.56%;
+  bottom: 28.43%;
+  left: 64.07%;
+  border-radius: var(--br-12xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.9;
+}
+.mjProfil {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 15.32%;
+  width: 25.36%;
+  top: 61.32%;
+  left: 74.64%;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-raleway);
+  color: var(--color-darkslateblue);
+  text-align: center;
+  display: inline-block;
+}
+.mojeListyMotywacyjne {
+  position: absolute;
+  height: 27.59%;
+  width: 15.46%;
+  top: 44.16%;
+  right: 63.9%;
+  bottom: 28.25%;
+  left: 20.64%;
+  border-radius: var(--br-12xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.9;
+}
+.mojeListyMotywacyjne1 {
+  margin: 0;
+}
+.mojeListyMotywacyjneContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 15.32%;
+  width: 25.36%;
+  top: 61.32%;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-raleway);
+  color: var(--color-darkslateblue);
+  text-align: center;
+  display: inline-block;
+}
+.mojeCvIcon {
+  position: absolute;
+  height: 8.62%;
+  width: 21.27%;
+  top: 70.18%;
+  right: 39.29%;
+  bottom: 21.2%;
+  left: 39.44%;
+  border-radius: var(--br-12xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.9;
+}
+.mojeCv {
+  position: absolute;
+  height: 15.32%;
+  width: 25.36%;
+  top: 84.68%;
+  left: 37.2%;
+  font-weight: 600;
+  display: inline-block;
+}
+.zdjcieUytkownikaIcon {
+  position: absolute;
+  height: 76.58%;
+  width: 48.31%;
+  top: -9.52%;
+  right: 25.85%;
+  bottom: 32.93%;
+  left: 25.85%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.menuGwneCv {
+  position: relative;
+  width: 414px;
+  height: 261.15px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-sienna);
+  font-family: var(--font-raleway);
+}

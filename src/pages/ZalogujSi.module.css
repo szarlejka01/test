@@ -1,0 +1,207 @@
+.extendedCv {
+  font-weight: 600;
+}
+.extendedCv,
+.ikona,
+.nieMaszJeszcze {
+  align-self: stretch;
+  position: relative;
+}
+.ikona {
+  flex: 1;
+  font-family: var(--font-font-awesome-5-free);
+  opacity: 0.4;
+}
+.nieMaszJeszcze {
+  font-size: var(--font-size-3xl);
+  font-weight: 500;
+}
+.zarejestrujSi {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+}
+.buttonsLogin,
+.nieMaszKonta {
+  flex-shrink: 0;
+  justify-content: center;
+}
+.buttonsLogin {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslateblue);
+}
+.nieMaszKonta {
+  height: 286px;
+  gap: var(--gap-xl);
+}
+.content,
+.lewasekcja,
+.nieMaszKonta {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content {
+  height: 425px;
+  flex-shrink: 0;
+  padding: 0 120px;
+  box-sizing: border-box;
+  justify-content: center;
+  margin-top: -35px;
+  font-size: 150px;
+}
+.lewasekcja {
+  flex: 1;
+  background: linear-gradient(
+    180.35deg,
+    rgba(185, 79, 56, 0.79) 50%,
+    #2c2a5c 98.44%
+  );
+  overflow: hidden;
+  padding: var(--padding-81xl) 0 var(--padding-181xl);
+  justify-content: flex-start;
+}
+.nieMaszJeszcze1 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.buttonsLogin1,
+.zarejestrujsi {
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+}
+.buttonsLogin1 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  height: 50px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  font-size: var(--font-size-5xl);
+  color: var(--color-sienna);
+}
+.zarejestrujsi {
+  display: none;
+  flex-direction: column;
+  padding: var(--padding-xl) 0 0;
+  gap: 12px;
+}
+.logowanie,
+.prawasekcja,
+.zalogujSi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logowanie {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(255, 255, 255, 0.49),
+    rgba(255, 255, 255, 0.07)
+  );
+  box-shadow: 0 0 10px rgba(189, 188, 207, 0.25);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  height: 692px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-21xl) var(--padding-81xl);
+  gap: var(--gap-3xs);
+}
+.prawasekcja,
+.zalogujSi {
+  overflow: hidden;
+}
+.prawasekcja {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  padding: 70px var(--padding-8xs);
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslateblue);
+}
+.zalogujSi {
+  position: relative;
+  background-color: var(--color-whitesmoke-200);
+  width: 100%;
+  height: 832px;
+  flex-direction: row;
+  padding: 0 var(--padding-81xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-81xl);
+  text-align: center;
+  font-size: 60px;
+  color: var(--color-white);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 960px) {
+  .lewasekcja {
+    display: none;
+    flex: unset;
+    align-self: stretch;
+  }
+  .zarejestrujsi {
+    display: flex;
+  }
+  .prawasekcja {
+    flex: unset;
+    align-self: stretch;
+    height: auto;
+    flex-direction: row;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .zalogujSi {
+    flex-direction: column;
+    gap: var(--gap-81xl);
+    align-items: center;
+    justify-content: center;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .lewasekcja {
+    flex: unset;
+    align-self: stretch;
+  }
+  .zarejestrujsi {
+    display: flex;
+  }
+  .prawasekcja {
+    flex-direction: row;
+    flex: unset;
+    align-self: stretch;
+  }
+  .zalogujSi {
+    flex-direction: column;
+    gap: var(--gap-81xl);
+    align-items: center;
+    justify-content: center;
+  }
+}

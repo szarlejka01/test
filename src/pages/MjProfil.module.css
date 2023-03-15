@@ -1,0 +1,328 @@
+.logo1,
+.napis {
+  position: relative;
+  flex-shrink: 0;
+}
+.logo1 {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-sienna);
+  width: 32px;
+  height: 32px;
+}
+.napis {
+  font-weight: 500;
+  display: inline-block;
+  width: 364px;
+}
+.cze {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.cze,
+.logo {
+  flex: 1;
+  flex-direction: row;
+}
+.div,
+.div1,
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.div1 {
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  width: 25px;
+  height: 25px;
+}
+.aktywne {
+  position: relative;
+  border-radius: var(--br-981xl);
+  background-color: var(--color-darkslateblue);
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  overflow: hidden;
+  font-size: var(--font-size-2xl);
+  color: var(--color-whitesmoke-200);
+}
+.przecznikMotywjasny {
+  border-radius: var(--br-3xs);
+  background: linear-gradient(180deg, #f2f2f6, rgba(242, 242, 246, 0));
+  box-shadow: 0 0 10px rgba(189, 188, 207, 0.5);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--color-gray);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-lg);
+}
+.div2 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-15xl);
+  color: var(--color-darkslateblue);
+  text-align: left;
+}
+.menuswitch,
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+.menuswitch {
+  width: 168px;
+  flex-shrink: 0;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-11xl);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-font-awesome-5-free);
+}
+.nav {
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-181xl);
+}
+.edit1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-font-awesome-5-free);
+  color: var(--color-darkslateblue);
+  text-align: right;
+  display: inline-block;
+}
+.edit {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-31xl) var(--padding-8xs) var(--padding-xl);
+  align-items: center;
+  justify-content: flex-end;
+}
+.ikona {
+  color: var(--color-sienna);
+  text-align: left;
+  width: 24px;
+}
+.dowiadczenieZawodowe,
+.ikona,
+.rozwi {
+  position: relative;
+  display: inline-block;
+  height: 24px;
+  flex-shrink: 0;
+}
+.dowiadczenieZawodowe {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-raleway);
+  width: 251px;
+}
+.rozwi {
+  font-size: var(--font-size-6xl);
+  width: 24px;
+}
+.doswiadczenie,
+.sekcjaNierozwinitaDowiad {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.doswiadczenie {
+  flex: 1;
+  padding: 0 var(--padding-11xl);
+  justify-content: space-between;
+}
+.sekcjaNierozwinitaDowiad {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  overflow: hidden;
+  padding: var(--padding-xs) 0;
+  justify-content: center;
+}
+.ikona1 {
+  position: relative;
+  color: var(--color-sienna);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.wyksztacenie1 {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-raleway);
+  display: inline-block;
+  width: 140px;
+}
+.rozwi1,
+.umiejtnoci1,
+.wyksztacenie1 {
+  position: relative;
+  height: 24px;
+  flex-shrink: 0;
+}
+.rozwi1 {
+  font-size: var(--font-size-6xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+}
+.umiejtnoci1 {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-raleway);
+  display: inline-block;
+  width: 127px;
+}
+.sekcje {
+  align-self: stretch;
+  padding: 0 var(--padding-41xl);
+  gap: var(--gap-xl);
+}
+.mjprofil,
+.sekcje,
+.to {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.to {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(255, 255, 255, 0.49),
+    rgba(255, 255, 255, 0.07)
+  );
+  border: 1px solid var(--color-gray);
+  padding: var(--padding-xl) var(--padding-31xl);
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-font-awesome-5-free);
+}
+.mjprofil {
+  position: relative;
+  background-color: var(--color-whitesmoke-200);
+  width: 100%;
+  height: 824px;
+  overflow-y: auto;
+  padding: var(--padding-25xl) var(--padding-81xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-34xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-lightsteelblue);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 1200px) {
+  .to {
+    align-self: stretch;
+    width: auto;
+  }
+}
+@media screen and (max-width: 960px) {
+  .menuswitch {
+    flex: 1;
+  }
+  .sekcjaNierozwinitaDowiad {
+    min-width: 400px;
+  }
+  .sekcje {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .mjprofil,
+  .sekcje,
+  .to {
+    box-sizing: border-box;
+  }
+  .to {
+    align-self: stretch;
+    width: auto;
+    padding-left: var(--padding-81xl);
+    padding-right: var(--padding-81xl);
+  }
+  .mjprofil {
+    flex-direction: column;
+    padding-left: var(--padding-31xl);
+    padding-top: var(--padding-281xl);
+    padding-right: var(--padding-31xl);
+  }
+}
+@media screen and (max-width: 420px) {
+  .logo {
+    display: none;
+    flex: unset;
+    align-self: stretch;
+  }
+  .menuswitch {
+    flex: 1;
+    flex-direction: row;
+    padding-left: 0;
+  }
+  .edit,
+  .menuswitch,
+  .nav {
+    box-sizing: border-box;
+  }
+  .nav {
+    flex-direction: column;
+    gap: var(--gap-81xl);
+    padding-left: var(--padding-181xl);
+  }
+  .edit {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .sekcjaNierozwinitaDowiad {
+    min-width: 400px;
+  }
+  .sekcje {
+    width: 400px;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .mjprofil,
+  .to {
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .to {
+    align-self: stretch;
+    width: auto;
+    flex: 1;
+    padding: var(--padding-xl) 0;
+  }
+  .mjprofil {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

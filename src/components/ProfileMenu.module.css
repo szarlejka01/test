@@ -1,0 +1,283 @@
+.mjProfilIcon {
+  position: absolute;
+  height: 21%;
+  width: 22.54%;
+  top: 69.77%;
+  right: 35.64%;
+  bottom: 9.23%;
+  left: 41.82%;
+  border-radius: var(--br-12xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.9;
+}
+.mjProfil {
+  position: absolute;
+  height: 13.2%;
+  width: 32.71%;
+  top: 46.2%;
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+}
+.mojeListyMotywacyjne {
+  position: absolute;
+  height: 21.12%;
+  width: 22.45%;
+  top: 10.43%;
+  right: 35.83%;
+  bottom: 68.45%;
+  left: 41.72%;
+  border-radius: var(--br-12xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.9;
+}
+.mojeListyMotywacyjne1 {
+  margin: 0;
+}
+.mojeListyMotywacyjneContainer {
+  position: absolute;
+  height: 13.2%;
+  width: 39.88%;
+  top: 0;
+  left: 12.46%;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-darkslateblue);
+  display: inline-block;
+}
+.mojeCvIcon {
+  position: absolute;
+  height: 28.88%;
+  width: 6.92%;
+  top: 36.24%;
+  right: 56.94%;
+  bottom: 34.87%;
+  left: 36.14%;
+  border-radius: var(--br-12xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.9;
+}
+.mojeCv {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 13.2%;
+  width: 32.71%;
+  top: 86.8%;
+  left: 19.63%;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-raleway);
+  color: var(--color-darkslateblue);
+  text-align: center;
+  display: inline-block;
+}
+.zdjcieUytkownikaIcon {
+  position: absolute;
+  height: 66.01%;
+  width: 62.31%;
+  top: 17.54%;
+  right: -7.79%;
+  bottom: 16.45%;
+  left: 45.48%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.menuGwneMp {
+  position: relative;
+  width: 321px;
+  height: 303px;
+  flex-shrink: 0;
+}
+.informacjeKontaktowe {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  height: 31px;
+  flex-shrink: 0;
+}
+.eMail,
+.imi,
+.imiParent,
+.nazwisko,
+.nrtelefonu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.imi,
+.nazwisko {
+  border: 0;
+  font-weight: 500;
+  font-family: var(--font-raleway);
+  font-size: var(--font-size-mini);
+  background-color: var(--color-whitesmoke-100);
+  flex: 1;
+  border-radius: var(--br-7xs);
+  padding: var(--padding-5xs) var(--padding-xl);
+}
+.eMail,
+.imiParent,
+.nrtelefonu {
+  align-self: stretch;
+}
+.imiParent {
+  gap: var(--gap-3xs);
+}
+.eMail,
+.nrtelefonu {
+  border: 0;
+  font-weight: 500;
+  font-family: var(--font-raleway);
+  font-size: var(--font-size-mini);
+  background-color: var(--color-whitesmoke-100);
+  border-radius: var(--br-7xs);
+  height: 34px;
+  flex-shrink: 0;
+  padding: var(--padding-5xs) var(--padding-xl);
+  box-sizing: border-box;
+}
+.informacjeKontakowe,
+.menuGwne {
+  display: flex;
+  justify-content: flex-start;
+}
+.informacjeKontakowe {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-11xl) var(--padding-xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 500px;
+  color: var(--color-darkslateblue);
+}
+.menuGwne {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-61xl) var(--padding-xl) 0;
+  align-items: center;
+  gap: var(--gap-45xl);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-sienna);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 1200px) {
+  .imi,
+  .nazwisko {
+    flex: unset;
+    align-self: stretch;
+  }
+  .imiParent {
+    align-self: stretch;
+    width: auto;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .nrtelefonu {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .eMail,
+  .nrtelefonu {
+    align-self: stretch;
+    width: auto;
+  }
+  .informacjeKontakowe {
+    flex: 1;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .menuGwne {
+    align-self: stretch;
+    width: auto;
+  }
+}
+@media screen and (max-width: 960px) {
+  .imiParent {
+    align-self: stretch;
+    width: auto;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .nrtelefonu {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .eMail,
+  .nrtelefonu {
+    align-self: stretch;
+    width: auto;
+  }
+  .informacjeKontakowe,
+  .menuGwne {
+    align-self: stretch;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .informacjeKontakowe {
+    flex: unset;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    min-width: 400px;
+  }
+  .menuGwne {
+    width: auto;
+    padding-left: var(--padding-81xl);
+    padding-right: var(--padding-81xl);
+  }
+}
+@media screen and (max-width: 420px) {
+  .imi {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .imi,
+  .nazwisko {
+    flex: 1;
+  }
+  .imiParent {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .informacjeKontakowe,
+  .menuGwne {
+    align-self: stretch;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .informacjeKontakowe {
+    flex: unset;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+  }
+  .menuGwne {
+    width: auto;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

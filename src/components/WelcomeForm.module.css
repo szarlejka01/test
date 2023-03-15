@@ -1,0 +1,179 @@
+.witajPonownie {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  height: 54px;
+  flex-shrink: 0;
+}
+.inputs {
+  border: 1px solid var(--color-gray);
+  background-color: var(--color-white);
+  border-radius: var(--br-3xs);
+  box-shadow: 0 0 10px rgba(189, 188, 207, 0.5);
+  backdrop-filter: blur(12px);
+  box-sizing: border-box;
+  height: 50px;
+  flex-shrink: 0;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  justify-content: center;
+}
+.buttonsLogin,
+.danelogowania,
+.inputs,
+.zalogujSi {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.zalogujSi {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  font-family: var(--font-raleway);
+  color: var(--color-white);
+  text-align: center;
+  justify-content: center;
+}
+.buttonsLogin,
+.danelogowania {
+  flex-shrink: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.buttonsLogin {
+  cursor: pointer;
+  border: 1px solid var(--color-gray);
+  padding: var(--padding-mini);
+  background-color: var(--color-darkslateblue);
+  border-radius: var(--br-3xs);
+  backdrop-filter: blur(12px);
+  height: 50px;
+  flex-direction: row;
+  justify-content: center;
+}
+.danelogowania {
+  height: 220px;
+  flex-direction: column;
+  padding: var(--padding-8xs);
+  justify-content: space-between;
+}
+.icon,
+.niePamitaszHasa {
+  align-self: stretch;
+  position: relative;
+}
+.niePamitaszHasa {
+  font-size: var(--font-size-xl);
+  text-decoration: underline;
+  font-weight: 500;
+  color: var(--color-slategray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 29px;
+  flex-shrink: 0;
+}
+.icon {
+  flex: 1;
+  border-radius: var(--br-9xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.loginwith {
+  border-radius: var(--br-3xs);
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(255, 255, 255, 0.49),
+    rgba(255, 255, 255, 0.07)
+  );
+  box-shadow: 0 0 10px rgba(189, 188, 207, 0.5);
+  backdrop-filter: blur(12px);
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.gmailIcon20201 {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.loginwith1 {
+  border-radius: var(--br-3xs);
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(255, 255, 255, 0.49),
+    rgba(255, 255, 255, 0.07)
+  );
+  box-shadow: 0 0 10px rgba(189, 188, 207, 0.5);
+  backdrop-filter: blur(12px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+}
+.content,
+.opcjelogowania {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.opcjelogowania {
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-8xs);
+  justify-content: space-between;
+}
+.content {
+  flex-direction: column;
+  padding: var(--padding-8xs) 0;
+  justify-content: center;
+  gap: var(--gap-26xl);
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 960px) {
+  .icon,
+  .opcjelogowania {
+    align-self: stretch;
+    flex: 1;
+  }
+  .icon {
+    height: auto;
+  }
+  .opcjelogowania {
+    width: auto;
+    flex-direction: row;
+    gap: var(--gap-41xl);
+  }
+}
+@media screen and (max-width: 420px) {
+  .icon {
+    flex: 1;
+  }
+  .opcjelogowania {
+    align-self: stretch;
+    width: auto;
+    flex: 1;
+    flex-direction: row;
+    gap: var(--gap-xl);
+  }
+}
